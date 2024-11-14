@@ -1,0 +1,147 @@
+/* 个人空间样式 */
+.profile-main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.profile-header {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.profile-cover {
+    height: 300px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.profile-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-info {
+    position: relative;
+    margin-top: -60px;
+    padding: 0 30px;
+}
+
+.profile-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid white;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.profile-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-details {
+    margin-top: 15px;
+}
+
+.profile-details h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.profile-bio {
+    color: #666;
+    margin: 10px 0;
+}
+
+.profile-nav {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+}
+
+.profile-nav button {
+    padding: 10px 20px;
+    border: none;
+    background: none;
+    font-size: 16px;
+    color: #666;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.profile-nav button.active {
+    color: #333;
+    font-weight: bold;
+    border-bottom: 2px solid #333;
+}
+
+.post-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.post-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-info h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.post-info span {
+    color: #999;
+    font-size: 14px;
+}
+
+.post-content {
+    margin-bottom: 15px;
+}
+
+.post-images {
+    margin: 10px 0;
+}
+
+.post-images img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.post-actions {
+    display: flex;
+    gap: 15px;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+}
+
+.post-actions button {
+    background: none;
+    border: none;
+    color: #666;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.post-actions button:hover {
+    color: #333;
+} 

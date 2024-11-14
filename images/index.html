@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>朋YOUNG</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="main-nav">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="shop.html">商城</a></li>
+                <li><a href="profile.html">个人空间</a></li>
+                <li><a href="about.html">关于我们</a></li>
+                <li><a href="contact.html">联系我们</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="搜索...">
+            <button class="search-button">搜索</button>
+        </div>
+
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="carousel-item">
+                    <img src="images/carousel/slide1.jpg" alt="轮播图1">
+                    <div class="carousel-content">
+                        <h2>春季特惠</h2>
+                        <p>精选商品低至5折</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/carousel/slide2.jpg" alt="轮播图2">
+                    <div class="carousel-content">
+                        <h2>新品上市</h2>
+                        <p>限时特价优惠</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/carousel/slide3.jpg" alt="轮播图3">
+                    <div class="carousel-content">
+                        <h2>会员专享</h2>
+                        <p>尊享会员特别优惠</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/carousel/slide4.jpg" alt="轮播图4">
+                    <div class="carousel-content">
+                        <h2>限时活动</h2>
+                        <p>参与互动赢好礼</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-button prev">&lt;</button>
+            <button class="carousel-button next">&gt;</button>
+            <div class="carousel-dots"></div>
+        </div>
+
+        <div class="category-icons">
+            <a href="food.html" class="icon-item">
+                <div class="circle-icon">
+                    <i class="fas fa-utensils"></i>
+                </div>
+                <span>食</span>
+            </a>
+            <a href="entertainment.html" class="icon-item">
+                <div class="circle-icon">
+                    <i class="fas fa-music"></i>
+                </div>
+                <span>乐</span>
+            </a>
+            <a href="flower.html" class="icon-item">
+                <div class="circle-icon">
+                    <i class="fas fa-seedling"></i>
+                </div>
+                <span>花</span>
+            </a>
+            <a href="wisdom.html" class="icon-item">
+                <div class="circle-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <span>智</span>
+            </a>
+            <a href="medicine.html" class="icon-item">
+                <div class="circle-icon">
+                    <i class="fas fa-pills"></i>
+                </div>
+                <span>药</span>
+            </a>
+            <a href="sports.html" class="icon-item">
+                <div class="circle-icon">
+                    <i class="fas fa-running"></i>
+                </div>
+                <span>动</span>
+            </a>
+        </div>
+        <!-- 在跳转按钮下方添加以下代码 -->
+<div class="content-sections">
+    <!-- 最新动态区域 -->
+    <div class="section news-section">
+        <h2 class="section-title">最新动态</h2>
+        <div class="news-list">
+            <div class="news-item">
+                <div class="news-date">2024-03-20</div>
+                <div class="news-content">
+                    <h3>春季新品发布会圆满结束</h3>
+                    <p>本次发布会展示了2024春季最新系列产品，获得广大用户好评...</p>
+                    <a href="#" class="read-more">查看详情</a>
+                </div>
+            </div>
+            <!-- 更多新闻项目 -->
+        </div>
+    </div>
+
+    <!-- 热门推荐区域 -->
+    <div class="section hot-section">
+        <h2 class="section-title">热门推荐</h2>
+        <div class="hot-products">
+            <div class="hot-product-card">
+                <img src="images/products/hot1.jpg" alt="热门商品1">
+                <div class="product-info">
+                    <h3>商品名称</h3>
+                    <p class="price">¥299</p>
+                    <div class="rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="reviews">(128条评价)</span>
+                    </div>
+                </div>
+            </div>
+            <!-- 更多热门商品 -->
+        </div>
+    </div>
+
+    <!-- 活动专区 -->
+    <div class="section events-section">
+        <h2 class="section-title">活动专区</h2>
+        <div class="event-cards">
+            <div class="event-card">
+                <div class="event-image">
+                    <img src="images/events/event1.jpg" alt="活动1">
+                    <div class="event-date">
+                        <span class="day">20</span>
+                        <span class="month">MAR</span>
+                    </div>
+                </div>
+                <div class="event-info">
+                    <h3>春季特惠活动</h3>
+                    <p>限时折扣，最高优惠50%</p>
+                    <button class="join-btn">立即参与</button>
+                </div>
+            </div>
+            <!-- 更多活动卡片 -->
+        </div>
+    </div>
+
+    <!-- 精选内容区域 -->
+    <div class="section featured-section">
+        <h2 class="section-title">精选内容</h2>
+        <div class="featured-grid">
+            <div class="featured-item">
+                <div class="featured-image">
+                    <img src="images/featured/item1.jpg" alt="精选1">
+                </div>
+                <div class="featured-info">
+                    <h3>主题标题</h3>
+                    <p>精选内容描述...</p>
+                    <a href="#" class="view-more">了解更多</a>
+                </div>
+            </div>
+            <!-- 更多精选内容 -->
+        </div>
+    </div>
+</div>
+    </main>
+</body>
+</html> 
